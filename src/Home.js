@@ -8,7 +8,9 @@ const Home = () => {
         <>
             <Header/>
             <h1>Home</h1>
-            <Link to={'/RateSmell'} className="btn btn--green btn--radius">今のにおいを確認</Link>
+            <div className="centering-btn">
+                <Link to={'/RateSmell'} className="btn btn--green btn--radius">今のにおいを確認</Link>
+            </div>
             <Footer/>
         </>
     );
