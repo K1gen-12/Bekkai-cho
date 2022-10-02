@@ -1,5 +1,7 @@
 import React, { PureComponent } from "react";
 import ReactStarsRating from 'react-awesome-stars-rating';
+import "./Home.css";
+import {Link} from 'react-router-dom';
 
 class Sample extends PureComponent {
     constructor(props) {
@@ -111,7 +113,13 @@ class Sample extends PureComponent {
             </select>
           </div>
           <div>Selected value: {selectedValue}</div>
-          <button type='button'>送信</button>
+          <div className="centering-btn">
+                <Link to={'/RateSmell'} className="btn btn--green btn--radius">送信</Link>
+          </div>
+          <br></br>
+          <div className="centering-btn">
+                <Link to={'/'} className="btn btn--blue btn--radius">ホームに戻る</Link>
+          </div>
         </section>
       );
     }

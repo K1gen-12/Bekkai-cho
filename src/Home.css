@@ -42,3 +42,20 @@ a.btn--green:hover {
 a.btn--radius {
     border-radius: 10vh;
 }
+
+.btn--blue,
+a.btn--blue {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #29dfff;
+}
+.btn--blue:hover,
+a.btn--blue:hover {
+    color: #fff;
+    background: #1fb9d4;
+}
+
+a.btn--radius {
+    border-radius: 10vh;
+}
